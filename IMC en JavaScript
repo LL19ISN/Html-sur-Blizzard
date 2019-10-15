@@ -1,0 +1,17 @@
+<html>
+<head>
+<meta http-equiv= "content type" content="text/html;charset=utf=8"/>
+</head>
+<body>
+<script language="JavaScript">
+paragraphe = document.createElement("IMC")
+document.body.appendChild(paragraphe)
+var m= window.prompt("Ton poids btrd:")
+var t= window.prompt("Ta taille btrd:")
+var IMC= m/(t*t)
+texte = document.createTextNode(IMC)
+paragraphe.appendChild(texte)
+</script>
+</body>
+</html>
+
