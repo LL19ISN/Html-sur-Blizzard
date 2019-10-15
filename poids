@@ -1,0 +1,4 @@
+m = float(input())
+t = float(input())
+imc = str(int(m / (t*t)))
+print("Votre imc est : " + imc)
